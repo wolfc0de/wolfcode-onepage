@@ -1,0 +1,64 @@
+$font: 'Montserrat', sans-serif;
+body {
+    font-family: $font;
+}
+/* header - nav */
+.wrapper-box 
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.navbar 
+{
+    padding: 20px 0px 20px 0px;
+}
+.brand-box 
+{
+    width: 60px; 
+}
+
+/* header - nav - menu */
+
+.menu-box {
+    > .list {
+        margin: 0px 15px;
+        > .link {
+            color: #000;
+            font-weight: 500;
+        }
+        :hover {
+            //font-weight: 500;
+            //border-bottom: 2px solid #000;
+        }
+    }
+}
+
+.banner-content {
+    background-color: transparent;
+    height: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.banner-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    > .title {
+        font-size: 4rem;
+        font-weight: 900;
+        letter-spacing: .1rem;
+        text-transform: uppercase;
+    }
+    > .title-b {
+        font-size: 2.25rem; 
+        font-weight: 900;
+        letter-spacing: .1rem;
+        text-transform: uppercase;
+    }
+}

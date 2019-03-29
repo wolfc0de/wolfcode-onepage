@@ -1,0 +1,27 @@
+{
+  "name": "wolfcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolfc0de/wolfcode-onepage.git"
+  },
+  "author": "Jackson Bruno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wolfc0de/wolfcode-onepage/issues"
+  },
+  "homepage": "https://github.com/wolfc0de/wolfcode-onepage#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3"
+  }
+}
