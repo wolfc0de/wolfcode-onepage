@@ -30,7 +30,7 @@ body {
             color: #000;
             font-weight: 500;
         }
-        :hover {
+        &:hover {
             //font-weight: 500;
             //border-bottom: 2px solid #000;
         }
@@ -61,4 +61,48 @@ body {
         letter-spacing: .1rem;
         text-transform: uppercase;
     }
+}
+
+/* Services */
+.services {
+    padding: 70px 0px 70px 0px;
+}
+.title-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 50px 0px;
+    > .title {
+        font-size: 2.25rem;
+        font-weight: 900;
+    }
+}
+
+.service-card {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 20px 15px 20px;
+    //background-color: #333;
+    > .image {
+        margin: 0px 0px 30px 0px;
+    }
+    >.text-box {
+        text-align: center;
+        > h3 {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 0px 0px 15px 0px;
+        }
+        > p {
+            font-size: 1rem;
+            font-weight: 300;
+        }
+    }
+}
+
+.end {
+    display: flex;
+    justify-content: flex-end;
 }

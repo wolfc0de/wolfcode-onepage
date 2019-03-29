@@ -55,3 +55,53 @@ body {
     font-weight: 900;
     letter-spacing: .1rem;
     text-transform: uppercase; }
+
+/* Services */
+.services {
+  padding: 70px 0px 70px 0px; }
+
+.title-box {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0px 0px 50px 0px; }
+  .title-box > .title {
+    font-size: 2.25rem;
+    font-weight: 900; }
+
+.service-card {
+  max-width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 15px 20px 15px 20px; }
+  .service-card > .image {
+    margin: 0px 0px 30px 0px; }
+  .service-card > .text-box {
+    text-align: center; }
+    .service-card > .text-box > h3 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin: 0px 0px 15px 0px; }
+    .service-card > .text-box > p {
+      font-size: 1rem;
+      font-weight: 300; }
+
+.end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
