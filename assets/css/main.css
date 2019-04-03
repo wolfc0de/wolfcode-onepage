@@ -1,5 +1,5 @@
 body {
-  font-family: "Montserrat", sans-serif; }
+  font-family: raleway, sans-serif; }
 
 /* header - nav */
 .wrapper-box {
@@ -21,19 +21,69 @@ body {
   margin: 0px 15px; }
   .menu-box > .list > .link {
     color: #000;
-    font-weight: 500; }
+    font-weight: 500;
+    text-transform: uppercase; }
 
-.banner-content {
-  background-color: transparent;
-  height: 70%;
+.banner-box {
+  width: 100%;
+  height: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0px 20px 0px 20px; }
+  .banner-box > .title {
+    font-size: 3.25rem;
+    font-weight: 900;
+    text-transform: uppercase; }
+  .banner-box > .subtitle {
+    font-size: 1.50rem;
+    font-weight: bold; }
+  .banner-box > .text {
+    font-size: 1rem; }
 
-.banner-box {
+/* Services */
+.services {
+  padding: 70px 0px 70px 0px; }
+
+.box-title {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px 0px 130px 0px; }
+  .box-title > .title {
+    font-size: 2rem;
+    font-weight: 900; }
+  .box-title > .subtitle {
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0px 20px 0px 20px; }
+  .box-title::after {
+    content: url("../img/linha.png");
+    display: block; }
+
+.service-item {
+  width: auto;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -45,63 +95,20 @@ body {
   -ms-flex-align: center;
   align-items: center;
   text-align: center; }
-  .banner-box > .title {
-    font-size: 4rem;
-    font-weight: 900;
-    letter-spacing: .1rem;
-    text-transform: uppercase; }
-  .banner-box > .title-b {
-    font-size: 2.25rem;
-    font-weight: 900;
-    letter-spacing: .1rem;
-    text-transform: uppercase; }
+  .service-item > .img {
+    width: 80px;
+    max-width: 100%;
+    padding: 0px 0px 30px 0px; }
+  .service-item > .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 0px 0px 15px 0px; }
+  .service-item > .text {
+    font-size: 1rem;
+    line-height: 1.7rem; }
 
-/* Services */
-.services {
-  padding: 70px 0px 70px 0px; }
-
-.title-box {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding: 0px 0px 50px 0px; }
-  .title-box > .title {
-    font-size: 2.25rem;
-    font-weight: 900; }
-
-.service-card {
-  max-width: 400px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding: 15px 20px 15px 20px; }
-  .service-card > .image {
-    margin: 0px 0px 30px 0px; }
-  .service-card > .text-box {
-    text-align: center; }
-    .service-card > .text-box > h3 {
-      font-size: 1.5rem;
-      font-weight: bold;
-      margin: 0px 0px 15px 0px; }
-    .service-card > .text-box > p {
-      font-size: 1rem;
-      font-weight: 300; }
-
-.end {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end; }
+/* about */
+.about-item > .text {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.9rem; }
