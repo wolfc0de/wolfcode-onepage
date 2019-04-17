@@ -184,7 +184,8 @@ body {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   max-width: 280px;
-  height: 300px; }
+  height: 300px;
+  margin: auto; }
   .team-item > .box-img {
     position: absolute;
     top: 0;
@@ -235,3 +236,45 @@ body {
     transition: 0.5s;
     background: -webkit-gradient(linear, left bottom, left top, from(#000), to(transparent));
     background: linear-gradient(0deg, #000, transparent); }
+
+.margem-item {
+  padding-bottom: 30px; }
+
+/* work */
+.work {
+  padding: 70px 0px 70px 0px; }
+
+.work-item {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden; }
+  .work-item > .box-img > img {
+    width: 100%; }
+  .work-item > .hover-box-text {
+    width: 0;
+    top: 0;
+    height: 100%;
+    position: absolute;
+    background: #000;
+    overflow: hidden;
+    -webkit-transition: .5s;
+    transition: .5s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end; }
+    .work-item > .hover-box-text > .box-text {
+      padding: 0px 0px 20px 20px; }
+      .work-item > .hover-box-text > .box-text > .title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #fff; }
+      .work-item > .hover-box-text > .box-text > .description {
+        color: #fff; }
+  .work-item:hover > .hover-box-text {
+    width: 100%;
+    -webkit-transition: .5s;
+    transition: .5s; }

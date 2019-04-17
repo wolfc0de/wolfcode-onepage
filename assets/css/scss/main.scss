@@ -2,6 +2,7 @@ $font: raleway, sans-serif;
 body {
     font-family: $font;
 }
+
 /* header - nav */
 .wrapper-box 
 {
@@ -183,6 +184,7 @@ body {
     transition: 0.5s;
     max-width: 280px;
     height: 300px;
+    margin: auto;
     //background: #000;
     > .box-img {
         position: absolute;
@@ -236,6 +238,55 @@ body {
             bottom: 0;
             transition: 0.5s;
             background: linear-gradient(0deg, #000, transparent);
+        }
+    }
+}
+
+.margem-item {
+    padding-bottom: 30px;
+}
+/* work */
+.work {
+    padding: 70px 0px 70px 0px; 
+}
+.work-item {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    > .box-img {
+        > img {
+            width: 100%;
+        }
+    }
+    > .hover-box-text {
+        width: 0;
+        top:0;
+        height: 100%;
+        position: absolute;
+        background: #000;
+        overflow: hidden;
+        transition: .5s;
+        display: flex;
+        align-items: flex-end;
+        > .box-text {
+            padding: 0px 0px 20px 20px;
+            > .title {
+                font-size: 1.5rem;
+                font-weight: bold;
+                color: #fff;
+            }
+            > .description {
+                color: #fff;
+            }
+        }
+        
+    }
+
+    &:hover {
+        > .hover-box-text {
+            width: 100%;
+            transition: .5s;
         }
     }
 }
